@@ -31,7 +31,10 @@ main header {
 
 /*Give the footer the same background as the header*/
 footer {
-  background-color: #281C26;
+    margin: 0px;
+    padding:0px;
+    background-color: #281C26;
+    overflow: auto;
 }
 
 /*Change the font family, color, and alignment of h1*/
@@ -41,18 +44,20 @@ h1 {
   color: #fefefe;
 }
 
-/*Change the font family, color, and alignment of h2*/
-h2 {
-  color: #fefefe;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /*Change the font family, color, and alignment of h3*/
-h3 {
+h2 {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   color: #bebebe;
+  font-size: 18px;
+}
+
+/*Change the font family, color, and alignment of h2*/
+h3 {
+  color: #fefefe;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
 
 /*Change the font family, color, alignment, and margin of paragraphs*/
