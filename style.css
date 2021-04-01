@@ -5,7 +5,7 @@
 
 /*Set primary background color*/
 body {
-  background-color: #54484E;
+  background: #54484E;
   margin: 0px;
   padding: 0px;
 }
@@ -20,8 +20,8 @@ header {
 
 /*Add margins on either side of the main part of the page so the short paragraphs don't look so bad*/
 main {
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /*Restyle headers in the main body of the page so they have no background*/
@@ -82,10 +82,19 @@ li {
   color: #fefefe;
 }
 
-/*Center, resize, align, and pad footer text*/
+/*Resize, center, and pad footer text*/
 footer p {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 12px;
+}
+
+/*Center and size image*/
+img {
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
