@@ -1,0 +1,91 @@
+/* Set ALL HTML elements with border-box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/*Set primary background color*/
+body {
+  background-color: #54484E;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Style header with a different color and a full-screen width*/
+header {
+  margin: 0px;
+  padding:0px;
+  background-color: #281C26;
+  overflow: auto;
+}
+
+/*Add margins on either side of the main part of the page so the short paragraphs don't look so bad*/
+main {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*Restyle headers in the main body of the page so they have no background*/
+main header {
+  background-color: #54484E;
+}
+
+/*Give the footer the same background as the header*/
+footer {
+  background-color: #281C26;
+}
+
+/*Change the font family, color, and alignment of h1*/
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+}
+
+/*Change the font family, color, and alignment of h2*/
+h2 {
+  color: #fefefe;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Change the font family, color, and alignment of h3*/
+h3 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #bebebe;
+}
+
+/*Change the font family, color, alignment, and margin of paragraphs*/
+p {
+  margin: 10px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+}
+
+/*change the margins, width, and color of horizontal rulers*/
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  color: #dedede;
+}
+
+/*Change link colors*/
+a:link    { color: #e3d2ea;  }
+a:visited { color: #b6a1bf;   }
+a:hover   { color: #f3eaf7; }
+a:active  { color: #b6a1bf;  }
+
+/*Change list item colors to match paragraphs*/
+li {
+  color: #fefefe;
+}
+
+/*Center, resize, align, and pad footer text*/
+footer p {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+}
